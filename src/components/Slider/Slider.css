@@ -1,0 +1,133 @@
+.slider-box {
+  max-width: 1300px;
+  margin-top: 5px;
+}
+
+.card-slider {
+  max-width: 400px;
+  height: 225px;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+  margin: 10px 10px;
+}
+
+.slick-list {
+  max-width: 100%;
+}
+
+.logo-card-slider {
+  width: 64px;
+  height: 64px;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.text-slider {
+  font-size: 18px;
+  font-family: Inter;
+  color: rgba(0, 0, 0, 1);
+  max-width: 350px;
+  margin-left: 30px;
+}
+
+.slick-next:before {
+  width: 39px !important;
+  height: 39px !important;
+  z-index: 1000 !important;
+  opacity: 1 !important;
+  color: transparent !important;
+  background-image: url("../../assets/Images/homeImage/right_icon.png") !important ;
+  background-size: contain; 
+  background-repeat: no-repeat; 
+}
+
+.slick-prev:before {
+  width: 39px !important;
+  height: 39px !important;
+  z-index: 1000 !important;
+  opacity: 1 !important;
+  color: transparent !important;
+  background-image: url("../../assets/Images/homeImage/left_icon.png") !important ;
+  background-size: contain; 
+  background-repeat: no-repeat; 
+}
+
+@media (max-width: 1400px) {
+  .slider-box {
+    max-width: 1200px;
+    margin-top: 5px;
+  }
+  .card-slider {
+    max-width: 330px;
+    height: 225px;
+  }
+}
+
+@media (max-width: 1240px) {
+  .slider-box {
+    max-width: 800px;
+    margin-top: 5px;
+  }
+  .card-slider {
+    max-width: 330px;
+    height: 225px;
+  }
+}
+
+@media (max-width: 900px) {
+  .slider-box {
+    max-width: 700px;
+    margin-top: 5px;
+  }
+  .card-slider {
+    max-width: 300px;
+    height: 225px;
+  }
+}
+
+@media (max-width: 800px) {
+  .slider-box {
+    max-width: 600px;
+    margin-top: 15px;
+  }
+  .card-slider {
+    max-width: 250px;
+    min-height: 300px;
+  }
+}
+
+@media (max-width: 700px) {
+  .slider-box {
+    max-width: 500px;
+    margin-top: 3px;
+  }
+  .card-slider {
+    max-width: 200px;
+    min-height: 300px;
+  }
+}
+
+@media (max-width: 600px) {
+  .slider-box {
+    max-width: 352px;
+  }
+  .card-slider {
+    max-width: 298px;
+    min-height: 188px;
+  }
+}
+@media (max-width: 425px) {
+  .slider-box {
+    max-width: 300px;
+  }
+  .card-slider {
+    max-width: 275px;
+    min-height: 188px;
+  }
+
+  .text-slider {
+    margin-left: 10px;
+  }
+}

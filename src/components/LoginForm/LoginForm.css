@@ -1,0 +1,90 @@
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 429px;
+  height: 523px;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  color: rgba(199, 199, 199, 1);
+}
+
+.loginImageSmall {
+  position: absolute;
+  width: 75px;
+  height: 92px;
+  top: -51px; 
+  left: -48px; 
+  margin: 0;
+  padding: 0;
+  z-index: 2; /* ✅ Устанавливаем порядок наложения */
+}
+
+input {
+  border: 1px solid rgba(199, 199, 199, 1);
+  border-radius: 5px;
+  box-sizing: border-box;
+  width: 379px;
+  height: 43px;
+}
+
+input:focus {
+  outline: none; /* Убирает стандартную рамку */
+}
+
+.error-input-login {
+  border: 1px solid rgba(255, 89, 89, 1);
+  width: 379px;
+}
+.error-text {
+  color: rgba(255, 89, 89, 1);
+  margin-top: -15px;
+  font-family: Inter;
+  font-size: 16px;
+}
+
+.label {
+  align-self: flex-start; /* Выравнивает только label влево, не изменяя другие элементы */
+  text-align: left;
+  margin-left: 25px;
+  font-family: Inter;
+  font-size: 16px;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 26px;
+}
+
+.update-password-link {
+  color: rgba(89, 112, 255, 1);
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+@media (max-width: 1290px) {
+  .login-form {
+    width: 335px;
+    height: 460px;
+  }
+  .loginImageSmall {
+    top: -80px; 
+    left: 85px;
+  }
+  input {
+    width: 305px;
+  }
+  .error-input-login {
+    width: 305px;
+  }
+
+  .label {
+    font-size: 14px;
+  }
+}

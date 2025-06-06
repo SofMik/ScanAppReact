@@ -1,0 +1,31 @@
+.buttonLink {
+  width: 96px;
+  height: 31px;
+  border: 1px solid rgba(89, 112, 255, 0.51);
+  border-radius: 5px;
+  margin-left: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgba(255, 255, 255, 1);
+  text-align: center;
+}
+
+.googleButton {
+  background-image: url("../../assets/Images/loginImage/GoogleLink.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.facebookButton {
+  color: rgba(38, 85, 154, 1);
+}
+
+.yandexButton {
+  color: rgb(36, 32, 32);
+}
+
+.yandexButton::first-letter {
+  color: red;
+}

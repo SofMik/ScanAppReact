@@ -1,0 +1,38 @@
+.buttonSearchFormValid {
+  background-color: rgba(89, 112, 255, 1);
+  border: 1px solid rgba(89, 112, 255, 1);
+  color: white;
+  cursor: pointer;
+  width: 305px;
+  height: 59px;
+  margin-top: 40px;
+}
+
+.buttonSearchFormNoValid {
+  background-color: rgb(167 177 233); 
+  border: 1px solid rgb(167 177 233);
+  cursor: not-allowed; 
+  color: white; 
+  width: 305px;
+  pointer-events: none; 
+  margin-top: 80px;
+  margin-left: 40px;
+}
+
+@media (max-width: 920px) {
+  .buttonSearchFormValid,
+  .buttonSearchFormNoValid {
+    width: 335px;
+    margin: 0px auto;
+    padding: 0;
+  }
+}
+
+@media (max-width: 460px) {
+  .search-form {
+    max-width: 375px;
+    max-height: 698px;
+    padding: 0px;
+    margin-top: 0px;
+  }
+}

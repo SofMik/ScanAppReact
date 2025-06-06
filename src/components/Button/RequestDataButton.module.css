@@ -1,0 +1,18 @@
+
+.requestDataButton {
+  margin-left: 60px;
+  margin-top: 45px;
+  width: 335px;
+}
+
+@media (max-width: 1070px) {
+  .requestDataButton {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 700px) {
+  .requestDataButton {
+    margin-left: 20px;
+  }
+}

@@ -1,0 +1,189 @@
+.document-cards {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 1364px;
+}
+
+.document-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 641px;
+  height: 694px;
+  font-family: Inter;
+  font-size: 16px;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  margin: 20px 10px 20px 10px;
+}
+
+.document-card-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.document-card-date,
+.document-card-source {
+  margin: 0;
+  padding: 5px;
+}
+
+.document-card-date {
+  width: 88px;
+}
+
+.document-card-source {
+  color: rgba(0, 0, 0, 1);
+}
+
+.document-card-title {
+  font-size: 26px;
+  text-decoration: none;
+  font-family: Inter;
+  color: rgba(0, 0, 0, 1);
+  font-weight: 500;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+
+.document-card-teg {
+  font-size: 12px;
+  background-color: rgba(255, 182, 79, 1);
+  border: 1px solid rgba(255, 182, 79, 1);
+  border-radius: 5px;
+  width: 157px;
+  height: 22px;
+  text-align: center;
+  margin-left: 20px;
+}
+
+.document-card-button {
+  background-color: rgba(124, 227, 225, 1);
+  border-radius: 5px;
+  width: 223px;
+  height: 46px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 20px;
+}
+
+.document-card-link {
+  text-decoration: none;
+  margin: 0;
+  color: rgba(0, 0, 0, 1);
+}
+
+.document-card-text {
+  margin-left: 20px;
+  margin-right: 20px;
+  flex-grow: 1;
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /*  WebKit */
+  -webkit-box-orient: vertical;
+
+  /* ✅ Добавляем стандартное свойство */
+  line-clamp: 3;
+  box-orient: vertical;
+
+  /* ✅ Фолбэк для других браузеров */
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.document-card-image {
+  align-self: center;
+  display: flex;
+  align-items: center; /* Центрирование по вертикали */
+  justify-content: center; /* Центрирование по горизонтали */
+  width: 581px;
+  height: 158px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.document-card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: auto; /* ✅ Прижимаем footer к нижнему краю */
+  padding-bottom: 10px; /* ✅ Создаём отступ 10px от края */
+}
+.document-card-wordcount {
+  margin-right: 20px;
+}
+
+.results-loader {
+  text-align: center;
+}
+.results-loader-element {
+  text-align: center;
+  border: 4px solid rgba(0, 0, 0, 1);
+  border-top: 4px solid rgb(228, 230, 227); /* ✅ Верхняя часть остается чёрной */
+  border-radius: 50%;
+
+  width: 30px;
+  height: 30px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.results-loader-p {
+  font-size: 18px;
+  font-family: Inter;
+  color: rgba(0, 0, 0, 1);
+  min-width: 177px;
+  margin-left: -60px;
+}
+
+@media (max-width: 700px) {
+  .document-card {
+    width: 335px;
+    height: 709px;
+    font-size: 12px;
+    margin: 10px 0px 10px 0px;
+  }
+
+  .document-card-title {
+    font-size: 19px;
+  }
+  .document-card-date {
+    font-size: 14px;
+  }
+  .document-card-teg {
+    font-size: 10px;
+    width: 132px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .document-card-button {
+    width: 195px;
+    height: 40px;
+  }
+
+  .document-card-link {
+    font-size: 14px;
+  }
+  .document-card-image {
+    width: 297px;
+    height: 158px;
+  }
+}

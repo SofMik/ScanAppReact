@@ -1,0 +1,16 @@
+.button_beginner {
+  background-color: rgba(210, 210, 210, 1);
+  border: 1px solid rgba(210, 210, 210, 1);
+  color: rgba(0, 0, 0, 1);
+}
+
+@media (max-width: 800px) {
+  .button_beginner {
+    width: 286px;
+    font-size: 18px;
+  }
+  .button_default {
+    width: 286px;
+    font-size: 18px;
+  }
+}

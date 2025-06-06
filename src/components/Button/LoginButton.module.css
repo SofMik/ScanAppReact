@@ -1,0 +1,31 @@
+
+.buttonLoginFormValid {
+  background-color: rgba(89, 112, 255, 1);
+  border: 1px solid rgba(89, 112, 255, 1);
+  color: white;
+  cursor: pointer;
+  width: 379px;
+  height: 59px;
+  margin-top: 10px;
+}
+
+.buttonLoginFormNoValid {
+  background-color: rgb(167 177 233); 
+  border: 1px solid rgb(167 177 233);
+  cursor: not-allowed;
+  color: white;
+  width: 379px;
+  margin-top: 10px;
+}
+
+@media (max-width: 1290px) {
+  .buttonLoginFormValid {
+    width: 305px;
+    font-size: 20px;
+  }
+
+  .buttonLoginFormNoValid {
+    width: 305px;
+    font-size: 20px;
+  }
+}

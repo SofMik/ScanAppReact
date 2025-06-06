@@ -1,0 +1,97 @@
+.results-loader-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: stretch;
+  flex-wrap: wrap;
+  max-width: 1127px;
+  min-width: 1126px;
+  height: 158px;
+  background-color: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(2, 148, 145, 1);
+  border-radius: 10px;
+}
+
+.results-loader-box {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-grow: 1; /* 🔥 ✅ Заполняет всё оставшееся пространство */
+  min-width: 200px; /* ✅ Ограничиваем минимальную ширину */
+  max-width: 100%; /* ✅ Но можно уменьшаться при необходимости */
+  height: 158px;
+}
+
+.results-loader {
+  text-align: center;
+}
+.results-loader-element {
+  text-align: center;
+  border: 4px solid rgba(0, 0, 0, 0.3); /* ✅ Сделали остальные границы полупрозрачными */
+  border-top: 4px solid rgb(228, 230, 227); /* ✅ Верхняя часть остается чёрной */
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  animation: spin 1s linear infinite;
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.results-loader-p {
+  font-size: 18px;
+  font-family: Inter;
+  color: rgba(0, 0, 0, 1);
+  min-width: 177px;
+  margin-left: -60px;
+}
+
+@media (max-width: 1460px) {
+  .results-loader-container {
+    max-width: 950px;
+    min-width: 949px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .results-loader-container {
+    max-width: 850px;
+    min-width: 849px;
+  }
+}
+
+@media (max-width: 1170px) {
+  .results-loader-container {
+    max-width: 700px;
+    min-width: 699px;
+  }
+}
+
+@media (max-width: 980px) {
+  .results-loader-container {
+    max-width: 463px;
+    min-width: 462px;
+  }
+  .results-loader-p {
+    display: none;
+  }
+}
+
+@media (max-width: 425px) {
+  .results-loader-container {
+    max-width: 298px;
+    min-width: 297px;
+    height: 75px;
+  }
+
+  .results-loader-box {
+    height: 75px;
+  }
+}
