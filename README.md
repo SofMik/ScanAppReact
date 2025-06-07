@@ -55,7 +55,7 @@ For example, try the INN of the State Hermitage Museum in St. Petersburg: **7830
 
 ## Demo
 
-You can check the live demo here <a href="https://sofmik.github.io/Desktop_Mobile_Figma_Updated/" target="_blank">Live version</a>
+You can check the live demo here <a href="https://sofmik.github.io/ScanAppReact/" target="_blank">Live version</a>
 
 ---
 
