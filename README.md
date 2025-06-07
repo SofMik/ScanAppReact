@@ -34,7 +34,7 @@ The layout prepared by designers is here <a href="https://www.figma.com/design/u
 ✔️ Real-time document loading (`POST objectsearch`)  
 ✔️ Carousel-based UI (`slick-carousel`)  
 ✔️ Adaptive layout for mobile and desktop  
-✔️ Full API documentation: [Scan Interfax API](https://gateway.scan-interfax.ru/swagger/index.html#/)
+✔️ Full API documentation <a href="https://gateway.scan-interfax.ru/swagger/index.html#/" target="_blank">here</a>
 
 ---
 
@@ -47,12 +47,15 @@ The layout prepared by designers is here <a href="https://www.figma.com/design/u
 
 A **test user account** is provided:  
 - **Login:** `sf_student1`  
-- **Password:** `4i2385j`  
+- **Password:** `4i2385j` 
+You can make a request using **any 10-digit INN** of a Russian enterprise.  
+For example, try the INN of the State Hermitage Museum in St. Petersburg: **7830002416**.
+
 ---
 
 ## Demo
 
-You can check the live demo here: [Live version](https://sofmik.github.io/ScanAppReact/)
+You can check the live demo here <a href="https://sofmik.github.io/Desktop_Mobile_Figma_Updated/" target="_blank">Live version</a>
 
 ---
 
