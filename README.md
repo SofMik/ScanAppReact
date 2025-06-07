@@ -52,7 +52,7 @@ A **test user account** is provided:
 
 ## Demo
 
-You can check the live demo here: [Live version](https://your-demo-link.com)
+You can check the live demo here: [Live version](https://sofmik.github.io/ScanAppReact/)
 
 ---
 

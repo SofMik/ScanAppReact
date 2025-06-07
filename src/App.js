@@ -10,9 +10,9 @@ import ResultsPage from "./pages/ResultsPage/ResultsPage";
 const App = () => {
   return (
     <AuthProvider>
-      <Router>
+      <Router basename="/ScanAppReact">
         <div className="App">
-          <Routes>
+           <Routes>
             {/* Главная страница */}
             <Route path="/" element={<HomePage />} />
 
