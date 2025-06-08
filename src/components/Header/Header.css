@@ -187,25 +187,14 @@ header {
   display: block; /* ✅ Показываем меню при `menuOpen === true` */
 }
 
-.nav-burger-menu ul {
-  list-style: none;
-  padding: 5px;
+.nav-burger-menu{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 60px;
 }
 
-.nav-burger-menu li {
-  margin: 10px 0;
-  text-transform: none;
-}
-/*
-.nav-burger-menu a {
-    text-decoration: none;
-  font-family: Inter;
-
-    width: 70px;
-    font-size: 14px;
-    color: rgba(255, 255, 255, 1); 
-     text-transform: none;
-}*/
 .link-nav-burger-menu {
   font-family: Inter;
   text-decoration: none;
@@ -214,6 +203,7 @@ header {
   color: rgba(255, 255, 255, 1);
   list-style: none;
   padding: 5px;
+  margin: 5px;
 }
 
 .nav-burger-menu-image {

@@ -73,27 +73,18 @@ const HeaderBurgerMenu = () => {
             ✖
           </button>
         </header>
-
-        <nav className="nav-burger-menu">
-          <ul>
-            <li>
-              <a className="link-nav-burger-menu" href="/">
-                Главная
-              </a>
-            </li>
-            <li>
-              <a className="link-nav-burger-menu" href="/">
-                Тарифы
-              </a>
-            </li>
-            <li>
-              <a className="link-nav-burger-menu" href="/">
-                FAQ
-              </a>
-            </li>
-          </ul>
+          <nav className="nav-burger-menu">
+          <Link className="link-nav-burger-menu" to="/">
+            Главная
+          </Link>
+          <Link className="link-nav-burger-menu" to="/">
+            Тарифы
+          </Link>
+          <Link className="link-nav-burger-menu" to="">
+            FAQ
+          </Link>
         </nav>
-
+        
         {/* Панель регистрации/входа */}
         {!auth.loggedIn ? (
           <div className="guest-panel-header-burgermenu">

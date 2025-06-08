@@ -49,7 +49,7 @@ A **test user account** is provided:
 - **Login:** `sf_student1`  
 - **Password:** `4i2385j` 
 - You can make a request using **any 10-digit INN** of a Russian enterprise.  
-For example, try the INN of the State Hermitage Museum in St. Petersburg: **7830002416**.
+**7830002416** - for example you can try the INN of the State Hermitage Museum in St. Petersburg.
 
 ---
 
